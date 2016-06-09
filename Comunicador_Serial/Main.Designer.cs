@@ -53,7 +53,7 @@
             this.btConectar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btConectar.Location = new System.Drawing.Point(13, 13);
             this.btConectar.Name = "btConectar";
-            this.btConectar.Size = new System.Drawing.Size(75, 23);
+            this.btConectar.Size = new System.Drawing.Size(96, 23);
             this.btConectar.TabIndex = 0;
             this.btConectar.Text = "Conectar";
             this.btConectar.UseVisualStyleBackColor = true;
@@ -62,7 +62,7 @@
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(95, 14);
+            this.comboBox1.Location = new System.Drawing.Point(115, 14);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(121, 21);
             this.comboBox1.TabIndex = 1;
@@ -72,7 +72,7 @@
             this.btEnviar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btEnviar.Location = new System.Drawing.Point(13, 42);
             this.btEnviar.Name = "btEnviar";
-            this.btEnviar.Size = new System.Drawing.Size(75, 23);
+            this.btEnviar.Size = new System.Drawing.Size(96, 23);
             this.btEnviar.TabIndex = 2;
             this.btEnviar.Text = "Enviar";
             this.btEnviar.UseVisualStyleBackColor = true;
@@ -80,7 +80,7 @@
             // 
             // textBoxEnviar
             // 
-            this.textBoxEnviar.Location = new System.Drawing.Point(95, 44);
+            this.textBoxEnviar.Location = new System.Drawing.Point(115, 44);
             this.textBoxEnviar.Name = "textBoxEnviar";
             this.textBoxEnviar.Size = new System.Drawing.Size(633, 20);
             this.textBoxEnviar.TabIndex = 3;
@@ -94,7 +94,7 @@
             this.textBoxReceber.Name = "textBoxReceber";
             this.textBoxReceber.ReadOnly = true;
             this.textBoxReceber.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBoxReceber.Size = new System.Drawing.Size(715, 163);
+            this.textBoxReceber.Size = new System.Drawing.Size(735, 163);
             this.textBoxReceber.TabIndex = 4;
             // 
             // timerCOM
@@ -109,7 +109,7 @@
             // comboBox2
             // 
             this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(240, 14);
+            this.comboBox2.Location = new System.Drawing.Point(260, 14);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(78, 21);
             this.comboBox2.TabIndex = 5;
@@ -117,7 +117,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(324, 18);
+            this.label1.Location = new System.Drawing.Point(344, 18);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(32, 13);
             this.label1.TabIndex = 6;
@@ -129,7 +129,7 @@
             this.checkBox1.AutoSize = true;
             this.checkBox1.Checked = true;
             this.checkBox1.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox1.Location = new System.Drawing.Point(490, 18);
+            this.checkBox1.Location = new System.Drawing.Point(510, 18);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(74, 17);
             this.checkBox1.TabIndex = 7;
@@ -140,7 +140,7 @@
             // scanButton
             // 
             this.scanButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.scanButton.Location = new System.Drawing.Point(374, 13);
+            this.scanButton.Location = new System.Drawing.Point(394, 13);
             this.scanButton.Name = "scanButton";
             this.scanButton.Size = new System.Drawing.Size(75, 23);
             this.scanButton.TabIndex = 8;
@@ -151,7 +151,7 @@
             // checkBox2
             // 
             this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(571, 17);
+            this.checkBox2.Location = new System.Drawing.Point(591, 17);
             this.checkBox2.Name = "checkBox2";
             this.checkBox2.Size = new System.Drawing.Size(104, 17);
             this.checkBox2.TabIndex = 9;
@@ -163,18 +163,18 @@
             // 
             this.btClearText.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btClearText.Image = global::Comunicador_Serial.Properties.Resources.clear;
-            this.btClearText.Location = new System.Drawing.Point(696, 9);
+            this.btClearText.Location = new System.Drawing.Point(716, 9);
             this.btClearText.Name = "btClearText";
             this.btClearText.Size = new System.Drawing.Size(32, 32);
             this.btClearText.TabIndex = 10;
             this.btClearText.UseVisualStyleBackColor = true;
             this.btClearText.Click += new System.EventHandler(this.btClearText_Click);
             // 
-            // Form1
+            // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(740, 261);
+            this.ClientSize = new System.Drawing.Size(760, 261);
             this.Controls.Add(this.btClearText);
             this.Controls.Add(this.checkBox2);
             this.Controls.Add(this.scanButton);
@@ -189,7 +189,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
-            this.Name = "Form1";
+            this.Name = "Main";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Arduino Serial Comunicator";
             this.Load += new System.EventHandler(this.Form1_Load);

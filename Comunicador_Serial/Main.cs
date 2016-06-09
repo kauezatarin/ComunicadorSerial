@@ -114,7 +114,7 @@ namespace Comunicador_Serial
                 if(textBoxEnviar.Text != "")//verifica se a textbox está vazia
                 {
                     serialPort1.Write(textBoxEnviar.Text);  //envia o texto presente no textbox Enviar
-                    textBoxReceber.AppendText(Environment.NewLine + "Comando ''" + textBoxEnviar.Text + "'' enviado.");
+                    textBoxReceber.AppendText(Environment.NewLine + "Enviado: " + textBoxEnviar.Text);
                 }
                 
                 if(Properties.Settings.Default.clear_on_send == true)//verifica a opção clear on send
@@ -280,7 +280,7 @@ namespace Comunicador_Serial
 
         private void trataDadoRecebido(object sender, EventArgs e)//printa o dado recebido do dispositivo no console
         {
-            textBoxReceber.AppendText(Environment.NewLine+"Recebido: "+ RxString);
+            textBoxReceber.AppendText(Environment.NewLine + RxString);
         }
 
         private void textBoxEnviar_KeyPress(object sender, KeyPressEventArgs e)//ao Precionar ENTER na envia os comandos da textbox1
